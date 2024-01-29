@@ -1,9 +1,8 @@
 import React, { PropsWithChildren } from 'react'
-import * as S from './styles'
 import Sidebar from './sidebar'
+import * as S from './styles'
 
 const layout = ({ children }: PropsWithChildren) => {
-	const a = ''
 	return (
 		<div className={S.Container}>
 			<Sidebar />
