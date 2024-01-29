@@ -1,6 +1,9 @@
 import { cn } from '@/lib/utils'
 
-export const Container = cn('container mx-auto flex items-center py-6')
+export const Container = cn(
+	'container mx-auto flex items-center justify-between py-6',
+	'md:justify-start'
+)
 
 export const Wrapper = cn(
 	'self-start sticky top-0 z-10 bg-transparent bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-30',
