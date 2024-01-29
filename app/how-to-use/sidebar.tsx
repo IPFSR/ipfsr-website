@@ -52,7 +52,9 @@ const Sidebar = () => {
 					</SelectTrigger>
 					<SelectContent>
 						{sidebarLinks.map(link => (
-							<SelectItem value={link.toLowerCase()}>{link}</SelectItem>
+							<SelectItem key={link} value={link.toLowerCase()}>
+								{link}
+							</SelectItem>
 						))}
 					</SelectContent>
 				</Select>
