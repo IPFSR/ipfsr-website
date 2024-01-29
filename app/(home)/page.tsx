@@ -1,8 +1,8 @@
-import { Button } from '@/components/ui/button'
-import * as S from './styles'
 import FeatureCard from '@/components/featureCard'
+import { Button } from '@/components/ui/button'
 import { ArchiveRestore, Replace, SquareStack } from 'lucide-react'
 import Link from 'next/link'
+import * as S from './styles'
 
 const featureCardList = [
 	{
@@ -31,8 +31,8 @@ const Home = () => {
 					<span className={S.Highlight}>IPFSR</span>
 				</p>
 				<h3 className={S.HeroSubheading}>
-					The Premier Pluggable IPFS Datastore for Reliable Backup and Recovery
-					of IPFS Data
+					The Pluggable IPFS Datastore for Reliable Backup and Recovery from Sia
+					Renterd
 				</h3>
 				<Link href='https://github.com/IPFSR' passHref>
 					<Button>Check out in Github</Button>
