@@ -19,6 +19,15 @@ const guides = [
 const HowToGuide = () => {
 	return (
 		<div className={S.Container}>
+			<iframe
+				width='560'
+				height='315'
+				src='https://www.youtube-nocookie.com/embed/yv0F5U06j7o?si=6ZF7U1ILdhO9pagv'
+				title='YouTube video player'
+				allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+				allowFullScreen
+			/>
+			<br />
 			{guides.map(g => (
 				<div key={g.id} className='mb-6'>
 					<h1>{g.title}</h1>
