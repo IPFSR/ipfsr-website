@@ -4,7 +4,7 @@ import './globals.css'
 export const metadata: Metadata = {
 	title: 'IPFSR',
 	description:
-		'Enhance Your Data Security with IPFSR. The Premier Pluggable IPFS Datasto e for Reliable Backup and Recovery of IPFS Data'
+		'Enhance Your Data Security with IPFSR. The Pluggable IPFS Datastore for Reliable Backup and Recovery from Sia Renterd'
 }
 
 export default function RootLayout({
