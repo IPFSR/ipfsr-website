@@ -5,10 +5,10 @@ const Footer = () => {
 		<div className={S.Container}>
 			<div className={S.Wrapper}>
 				<div>
-					<h3 className={S.Heading}>Contact</h3>
-					<p>areyesonl@gmail.com</p>
+					<p className={S.Heading}>Contact</p>
+					<p className='text-sm'>areyesonl@gmail.com</p>
 				</div>
-				<div>
+				<div className='text-sm'>
 					Project of Alvin Reyes, ARData.Tech
 					<br />
 					@Contributed to Sia Foundation

@@ -16,7 +16,7 @@ export const SidebarLinks = cn('p-4 cursor-pointer hover:bg-teal-400')
 
 export const Section = cn('p-4')
 
-export const Content = cn('bg-zinc-900 w-full rounded-3xl p-6 mb-10')
+export const Content = cn('bg-zinc-900 w-full rounded-3xl p-6')
 
 export const ContentHeading = cn(
 	'font-bold scroll-mt-24',
