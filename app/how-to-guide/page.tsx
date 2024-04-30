@@ -13,6 +13,11 @@ const guides = [
 		id: 2,
 		title: 'Use sia-ds to replace your fork of Ipfs/Kubo with',
 		link: 'https://github.com/IPFSR/sia-ds'
+	},
+	{
+		id: 3,
+		title: 'Quick-install IPFSR Desktop',
+		link: 'https://github.com/IPFSR/ipfs-desktop'
 	}
 ]
 
