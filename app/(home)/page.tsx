@@ -34,9 +34,16 @@ const Home = () => {
 					The Pluggable IPFS Datastore for Reliable Backup and Recovery from Sia
 					Renterd
 				</h3>
-				<Link href='https://github.com/IPFSR' passHref>
-					<Button>Check out in Github</Button>
-				</Link>
+				<div className='flex gap-2'>
+					<Link href='https://github.com/IPFSR' passHref>
+						<Button>View Github</Button>
+					</Link>
+					<Link
+						href='https://github.com/IPFSR/ipfs-desktop?tab=readme-ov-file#ipfs-desktop'
+						passHref>
+						<Button>IPFSR Desktop</Button>
+					</Link>
+				</div>
 			</section>
 
 			<section className={S.Section}>
