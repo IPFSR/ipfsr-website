@@ -4,7 +4,7 @@ export const Container = cn('container mx-auto')
 
 export const Section = cn('mt-16', 'md:mt-32')
 
-export const Hero = cn('text-center flex flex-col items-center gap-6', Section)
+export const Hero = cn('text-center flex flex-col items-center gap-4', Section)
 
 export const HerorHeading = cn('text-6xl font-bold max-w-2xl')
 
