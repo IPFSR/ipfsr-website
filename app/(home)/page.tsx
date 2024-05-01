@@ -76,11 +76,11 @@ const Home = () => {
 
 						<div className='mb-12 lg:mb-0 flex flex-col items-center'>
 							<Image
-								src='/ipfsr-logo.png'
+								src='/ipfs-desktop.png'
 								alt='IPFSR Logo'
-								width={60}
+								width={150}
 								height={60}
-								className='rounded-full mb-4'
+								className='mb-4'
 							/>
 							<h5 className='mb-4 text-lg font-bold'>
 								IPFS Desktop App backed by IPFSR Kubo Sia Renterd
@@ -94,11 +94,11 @@ const Home = () => {
 
 						<div className='mb-12 lg:mb-0 flex flex-col items-center'>
 							<Image
-								src='/ipfsr-logo.png'
+								src='/go-ds.png'
 								alt='IPFSR Logo'
 								width={60}
 								height={60}
-								className='rounded-full mb-4'
+								className='mb-4'
 							/>
 							<h5 className='mb-4 text-lg font-bold'>
 								GO datastore leveldb plugin for IPFSR Kubo
@@ -112,11 +112,11 @@ const Home = () => {
 
 						<div className='mb-12 lg:mb-0 flex flex-col items-center'>
 							<Image
-								src='/ipfsr-logo.png'
+								src='/sia-ds.png'
 								alt='IPFSR Logo'
 								width={60}
 								height={60}
-								className='rounded-full mb-4'
+								className='mb-4'
 							/>
 							<h5 className='mb-4 text-lg font-bold'>
 								GO datastore plugin for IPFSR Kubo
