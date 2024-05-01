@@ -1,6 +1,7 @@
 import FeatureCard from '@/components/featureCard'
 import { Button } from '@/components/ui/button'
 import { ArchiveRestore, Replace, SquareStack } from 'lucide-react'
+import Image from 'next/image'
 import Link from 'next/link'
 import * as S from './styles'
 
@@ -34,9 +35,11 @@ const Home = () => {
 					The Pluggable IPFS Datastore for Reliable Backup and Recovery from Sia
 					Renterd
 				</h3>
-				<Link href='https://github.com/IPFSR' passHref>
-					<Button>Check out in Github</Button>
-				</Link>
+				<div className='flex gap-2'>
+					<Link href='https://github.com/IPFSR' passHref>
+						<Button>View Github</Button>
+					</Link>
+				</div>
 			</section>
 
 			<section className={S.Section}>
@@ -51,6 +54,80 @@ const Home = () => {
 					))}
 				</div>
 			</section>
+
+			<div className='container my-36 mx-auto md:px-6'>
+				<section className='mb-32 text-center'>
+					<div className='grid gap-x-6 md:grid-cols-2 lg:grid-cols-4 lg:gap-x-12'>
+						<div className='mb-12 lg:mb-0 flex flex-col items-center'>
+							<Image
+								src='/ipfsr-logo.png'
+								alt='IPFSR Logo'
+								width={60}
+								height={60}
+								className='rounded-full mb-4'
+							/>
+							<h5 className='mb-4 text-lg font-bold'>
+								IPFS integrated with Sia Renterd (IPFSR)
+							</h5>
+							<Link href='https://github.com/IPFSR/kubo' target='_blank'>
+								<Button>Visit Link</Button>
+							</Link>
+						</div>
+
+						<div className='mb-12 lg:mb-0 flex flex-col items-center'>
+							<Image
+								src='/ipfs-desktop.png'
+								alt='IPFSR Logo'
+								width={150}
+								height={60}
+								className='mb-4'
+							/>
+							<h5 className='mb-4 text-lg font-bold'>
+								IPFS Desktop App backed by IPFSR Kubo Sia Renterd
+							</h5>
+							<Link
+								href='https://github.com/IPFSR/ipfs-desktop'
+								target='_blank'>
+								<Button>Visit Link</Button>
+							</Link>
+						</div>
+
+						<div className='mb-12 lg:mb-0 flex flex-col items-center'>
+							<Image
+								src='/go-ds.png'
+								alt='IPFSR Logo'
+								width={60}
+								height={60}
+								className='mb-4'
+							/>
+							<h5 className='mb-4 text-lg font-bold'>
+								GO datastore leveldb plugin for IPFSR Kubo
+							</h5>
+							<Link
+								href='https://github.com/IPFSR/go-ds-leveldb-sia '
+								target='_blank'>
+								<Button>Visit Link</Button>
+							</Link>
+						</div>
+
+						<div className='mb-12 lg:mb-0 flex flex-col items-center'>
+							<Image
+								src='/sia-ds.png'
+								alt='IPFSR Logo'
+								width={60}
+								height={60}
+								className='mb-4'
+							/>
+							<h5 className='mb-4 text-lg font-bold'>
+								GO datastore plugin for IPFSR Kubo
+							</h5>
+							<Link href='https://github.com/IPFSR' target='_blank'>
+								<Button>Visit Link</Button>
+							</Link>
+						</div>
+					</div>
+				</section>
+			</div>
 		</div>
 	)
 }
