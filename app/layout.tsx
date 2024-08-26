@@ -1,3 +1,4 @@
+import PoweredBy from '@/components/poweredBy'
 import type { Metadata } from 'next'
 import './globals.css'
 
@@ -15,6 +16,7 @@ export default function RootLayout({
 	return (
 		<html lang='en' className='dark'>
 			{children}
+			<PoweredBy />
 		</html>
 	)
 }
